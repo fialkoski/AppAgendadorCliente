@@ -1,6 +1,6 @@
 import 'dart:convert';
+import 'package:agendadorcliente/models/errorequisicao.dart';
 import 'package:http/http.dart';
-import '../Models/ErroRequisicao.dart';
 
 class UtilException {
   static Exception exceptionRequisicaoApi(Response response) {

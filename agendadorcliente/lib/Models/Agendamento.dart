@@ -1,4 +1,4 @@
-import 'package:agendadorcliente/Models/Cliente.dart';
+import 'package:agendadorcliente/models/cliente.dart';
 
 class Agendamento {
   int idEmpresa;

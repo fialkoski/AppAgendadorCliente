@@ -1,9 +1,7 @@
+import 'package:agendadorcliente/screens/historico_screen.dart';
+import 'package:agendadorcliente/screens/nao_encontrado_screen.dart';
+import 'package:agendadorcliente/screens/principal_screen.dart';
 import 'package:go_router/go_router.dart';
-import 'package:agendadorcliente/Screens/HistoricoScreen.dart';
-import 'package:agendadorcliente/Screens/NaoEncontradoScreen.dart';
-import 'package:agendadorcliente/Screens/PrincipalScreen.dart';
-
-
 
 class RotasConfig {
   static GoRouter getRouter() {

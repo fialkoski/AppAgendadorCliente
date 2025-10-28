@@ -1,6 +1,6 @@
-import 'package:agendadorcliente/Models/Historico.dart';
-import 'package:agendadorcliente/Services/ApiService.dart';
-import 'package:agendadorcliente/Singleton/EmpresaSingleton.dart';
+import 'package:agendadorcliente/models/historico.dart';
+import 'package:agendadorcliente/services/api_service.dart';
+import 'package:agendadorcliente/singleton/empresa_singleton.dart';
 
 class HistoricoService {
   Future<List<Historico>> buscarHistoricoPorCpf(String cpf) async {

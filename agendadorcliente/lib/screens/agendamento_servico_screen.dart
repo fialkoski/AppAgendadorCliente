@@ -1,15 +1,15 @@
 import 'dart:ui';
 
+import 'package:agendadorcliente/models/empresa.dart';
+import 'package:agendadorcliente/models/servico.dart';
+import 'package:agendadorcliente/screens/agendamento_data_screen.dart';
+import 'package:agendadorcliente/screens/nao_encontrado_screen.dart';
+import 'package:agendadorcliente/services/agendamento_service.dart';
+import 'package:agendadorcliente/services/empresa_service.dart';
+import 'package:agendadorcliente/singleton/empresa_singleton.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:agendadorcliente/Screens/AgendamentoDataScreen.dart';
-import 'package:agendadorcliente/Singleton/EmpresaSingleton.dart';
-import 'package:agendadorcliente/screens/NaoEncontradoScreen.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:agendadorcliente/Services/AgendamentoService.dart';
-import '../Models/Empresa.dart';
-import '../Models/Servico.dart';
-import '../Services/EmpresaService.dart';
 
 class AgendamentoServicoScreen extends StatefulWidget {
   final String cpfcnpj;

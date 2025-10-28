@@ -1,5 +1,6 @@
-import 'package:agendadorcliente/Models/Cliente.dart';
-import 'package:agendadorcliente/Repository/ClienteRepository.dart';
+
+import 'package:agendadorcliente/models/cliente.dart';
+import 'package:agendadorcliente/repository/cliente_repository.dart';
 
 class ClienteService {
   final ClienteRepository _clienteRepository = ClienteRepository();

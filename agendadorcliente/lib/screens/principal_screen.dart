@@ -1,7 +1,7 @@
+import 'package:agendadorcliente/screens/agendamento_servico_screen.dart';
+import 'package:agendadorcliente/screens/historico_screen.dart';
+import 'package:agendadorcliente/singleton/empresa_singleton.dart';
 import 'package:flutter/material.dart';
-import 'package:agendadorcliente/Screens/AgendamentoServicoScreen.dart';
-import 'package:agendadorcliente/Singleton/EmpresaSingleton.dart';
-import 'package:agendadorcliente/screens/HistoricoScreen.dart';
 import 'package:universal_html/html.dart' as html;
 
 class PrincipalScreen extends StatefulWidget {

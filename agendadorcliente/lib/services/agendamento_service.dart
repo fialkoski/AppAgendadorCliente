@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:agendadorcliente/Models/Agenda.dart';
-import 'package:agendadorcliente/Models/AgendamentoRetorno.dart';
-import 'package:agendadorcliente/Models/Cliente.dart';
-import 'package:agendadorcliente/Models/ErroRequisicao.dart';
-import 'package:agendadorcliente/Models/Servico.dart';
-import 'package:agendadorcliente/Services/ApiService.dart';
-import 'package:agendadorcliente/Singleton/EmpresaSingleton.dart';
-import 'package:agendadorcliente/Tools/Util.dart';
+import 'package:agendadorcliente/models/agenda.dart';
+import 'package:agendadorcliente/models/agendamentoretorno.dart';
+import 'package:agendadorcliente/models/cliente.dart';
+import 'package:agendadorcliente/models/errorequisicao.dart';
+import 'package:agendadorcliente/models/servico.dart';
+import 'package:agendadorcliente/services/api_service.dart';
+import 'package:agendadorcliente/tools/util.dart';
+import 'package:agendadorcliente/singleton/empresa_singleton.dart';
 
 class AgendamentoService {
   Future<List<Servico>> buscarListaServico() async {

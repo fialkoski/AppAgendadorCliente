@@ -1,10 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
+import 'package:agendadorcliente/tools/util.dart';
+import 'package:agendadorcliente/tools/util_exception.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
-import 'package:agendadorcliente/Tools/Util.dart';
-
-import '../Tools/UtilException.dart';
 
 class ApiService {
   static String URLBASE =

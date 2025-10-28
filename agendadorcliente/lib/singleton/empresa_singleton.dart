@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:agendadorcliente/Models/Empresa.dart';
+import 'package:agendadorcliente/models/empresa.dart';
 
 class EmpresaSingleton {
   static Empresa? empresa;

@@ -1,5 +1,5 @@
-import '../Models/Empresa.dart';
-import 'package:agendadorcliente/Services/ApiService.dart';
+import 'package:agendadorcliente/models/empresa.dart';
+import 'package:agendadorcliente/services/api_service.dart';
 
 class EmpresaService {
   Future<Empresa> buscarEmpresaPorCpfcnpj(String cpfcnpj) async {

@@ -1,10 +1,10 @@
+import 'package:agendadorcliente/models/cliente.dart';
+import 'package:agendadorcliente/models/historico.dart';
+import 'package:agendadorcliente/services/agendamento_service.dart';
+import 'package:agendadorcliente/services/cliente_service.dart';
+import 'package:agendadorcliente/services/historico_service.dart';
+import 'package:agendadorcliente/tools/util.dart';
 import 'package:flutter/material.dart';
-import 'package:agendadorcliente/Models/Cliente.dart';
-import 'package:agendadorcliente/Models/Historico.dart';
-import 'package:agendadorcliente/Services/AgendamentoService.dart';
-import 'package:agendadorcliente/Services/ClienteService.dart';
-import 'package:agendadorcliente/Services/HistoricoService.dart';
-import 'package:agendadorcliente/Tools/Util.dart';
 
 class HistoricoScreen extends StatefulWidget {
   const HistoricoScreen({super.key});

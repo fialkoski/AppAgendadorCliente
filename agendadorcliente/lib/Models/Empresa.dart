@@ -1,4 +1,4 @@
-import 'package:agendadorcliente/Models/EmpresaEndereco.dart';
+import 'package:agendadorcliente/models/empresaendereco.dart';
 
 class Empresa {
   final int id;

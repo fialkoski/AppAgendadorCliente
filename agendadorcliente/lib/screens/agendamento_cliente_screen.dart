@@ -1,16 +1,16 @@
 import 'dart:async';
 
+import 'package:agendadorcliente/models/agendamento.dart';
+import 'package:agendadorcliente/models/cliente.dart';
+import 'package:agendadorcliente/models/servico.dart';
+import 'package:agendadorcliente/services/agendamento_service.dart';
+import 'package:agendadorcliente/services/cliente_service.dart';
+import 'package:agendadorcliente/singleton/empresa_singleton.dart';
+import 'package:agendadorcliente/tools/util.dart';
+import 'package:agendadorcliente/tools/util_texto.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
-import 'package:agendadorcliente/Models/Agendamento.dart';
-import 'package:agendadorcliente/Models/Cliente.dart';
-import 'package:agendadorcliente/Models/Servico.dart';
-import 'package:agendadorcliente/Services/AgendamentoService.dart';
-import 'package:agendadorcliente/Services/ClienteService.dart';
-import 'package:agendadorcliente/Singleton/EmpresaSingleton.dart';
-import 'package:agendadorcliente/Tools/Util.dart';
-import '../Tools/UtilTexto.dart';
 
 class AgendamentoClienteScreen extends StatefulWidget {
   final Agendamento agendamento;

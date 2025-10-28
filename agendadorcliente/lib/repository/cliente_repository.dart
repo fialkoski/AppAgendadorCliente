@@ -1,5 +1,7 @@
-import 'package:agendadorcliente/Models/Cliente.dart';
-import 'package:agendadorcliente/Tools/Util.dart';
+
+
+import 'package:agendadorcliente/models/cliente.dart';
+import 'package:agendadorcliente/tools/util.dart';
 
 class ClienteRepository {
   salvarClienteLocal(Cliente cliente) {

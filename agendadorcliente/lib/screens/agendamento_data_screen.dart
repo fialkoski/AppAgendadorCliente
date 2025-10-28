@@ -1,18 +1,18 @@
+import 'package:agendadorcliente/models/agenda.dart';
+import 'package:agendadorcliente/models/agendamento.dart';
+import 'package:agendadorcliente/models/cliente.dart';
+import 'package:agendadorcliente/models/profissional.dart';
+import 'package:agendadorcliente/models/servico.dart';
+import 'package:agendadorcliente/screens/agendamento_cliente_screen.dart';
+import 'package:agendadorcliente/services/agendamento_service.dart';
+import 'package:agendadorcliente/singleton/empresa_singleton.dart';
+import 'package:agendadorcliente/tools/util.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_stepper/easy_stepper.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:agendadorcliente/Models/Agenda.dart';
-import 'package:agendadorcliente/Models/Agendamento.dart';
-import 'package:agendadorcliente/Models/Cliente.dart';
-import 'package:agendadorcliente/Models/Servico.dart';
-import 'package:agendadorcliente/Screens/AgendamentoClienteScreen.dart';
-import 'package:agendadorcliente/Services/AgendamentoService.dart';
-import 'package:agendadorcliente/Singleton/EmpresaSingleton.dart';
-import 'package:agendadorcliente/Tools/Util.dart';
-import '../Models/Profissional.dart';
+
 
 class AgendamentoDataScreen extends StatefulWidget {
   final Servico servico;

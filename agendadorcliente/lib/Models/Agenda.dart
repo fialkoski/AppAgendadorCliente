@@ -1,4 +1,4 @@
-import 'package:agendadorcliente/Models/Profissional.dart';
+import 'package:agendadorcliente/models/profissional.dart';
 
 class Agenda {
   final String data;

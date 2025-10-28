@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'Configurations/AppTema.dart';
-import 'Configurations/RotasConfig.dart';
+import 'configurations/apptema.dart';
+import 'configurations/rotasconfig.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 
 void main() {
