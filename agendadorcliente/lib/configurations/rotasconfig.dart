@@ -10,7 +10,7 @@ class RotasConfig {
         GoRoute(
             path: '/',
             builder: (context, state) => PrincipalScreen(
-                cpfcnpj: "12345") //NaoEncontradoScreen(),
+                cpfcnpj: "09269626989") //NaoEncontradoScreen(),
             ),
         GoRoute(
           path: '/agenda/:cnpjcpf',

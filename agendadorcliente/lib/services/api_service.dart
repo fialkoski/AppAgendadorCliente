@@ -2,12 +2,13 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:agendadorcliente/tools/util.dart';
 import 'package:agendadorcliente/tools/util_exception.dart';
+import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 
 class ApiService {
-  static String URLBASE =
-      'https://agendador-fzghg9hrh9bgb9dm.canadacentral-01.azurewebsites.net';
+  static String URLBASE = kDebugMode ? 'http://localhost:8080' :
+         'https://agendador-fzghg9hrh9bgb9dm.canadacentral-01.azurewebsites.net';
 
   static Future<T> buscar<T>(
       String url, T Function(Map<String, dynamic>) fromJson) async {
